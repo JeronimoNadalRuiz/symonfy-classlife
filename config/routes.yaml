@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+sesiones:
+  path: /sesiones
+  controller: App\Controller\AulasCalendarController::aulas
+
+asistencia:
+  path: /asistencia
+  controller: App\Controller\AsistenciaController::asistencia
+
+calendario:
+  path: /calendario
+  controller: App\Controller\CalendarioController::calendario
